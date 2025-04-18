@@ -45,7 +45,7 @@ transform = transforms.Compose(
 st.title("🐶 Prédicteur de race de chien")
 
 # Folder path
-folder_path = "data_10_classes"  # Replace with your path
+folder_path = "data_10_classes"
 
 files = []
 for folder_class in os.listdir(folder_path):
